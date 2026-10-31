@@ -28,7 +28,7 @@ jobs:
           unzip -o POGO_PRO_MENU_Projet_Android.zip -d source
 
       - name: Compiler APK
-        working-directory: source/POGO_PRO_MENU
+        working-directory: source
         run: gradle assembleDebug
 
       - name: Récupérer APK
